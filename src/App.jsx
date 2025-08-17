@@ -2,7 +2,8 @@ import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE = 'http://localhost:5000/api';
+// TODO: Replace with your actual production backend URL
+const API_BASE = 'https://ai-meeting-summarizer-backend-arx1.onrender.com/api';
 
 
 function App() {

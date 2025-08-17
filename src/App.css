@@ -6,32 +6,38 @@
   background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 .section {
-  margin: 20px 0;
+  margin: 20px auto;
   background-color: white;
-  padding: 20px;
+  padding: 25px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: left;
+  max-width: 100%;
 }
 
 h1 {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
+  font-size: 28px;
 }
 
 h3 {
   color: #333;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 h4 {
   color: #333;
   margin-bottom: 10px;
   font-size: 16px;
+  text-align: center;
 }
 
 textarea, input {
@@ -43,6 +49,7 @@ textarea, input {
   background-color: white;
   color: #333;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 textarea:focus, input:focus {
@@ -86,12 +93,14 @@ button:disabled {
 /* New styles for file upload functionality */
 .input-method-tabs {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .tab-group {
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 .tab-label {
@@ -140,11 +149,19 @@ button:disabled {
   border: 2px solid #e9ecef;
   border-radius: 8px;
   background-color: #fafafa;
+  text-align: center;
+}
+
+.text-input-section h4,
+.file-upload-section h4 {
+  margin-bottom: 15px;
 }
 
 .file-input-wrapper {
   position: relative;
   margin-bottom: 15px;
+  display: inline-block;
+  width: auto;
 }
 
 .file-input-wrapper input[type="file"] {
@@ -167,6 +184,7 @@ button:disabled {
   transition: all 0.2s ease;
   font-weight: 500;
   border: 2px solid #007bff;
+  min-width: 150px;
 }
 
 .file-upload-label:hover {
@@ -184,6 +202,8 @@ button:disabled {
   background-color: #e9ecef;
   border-radius: 4px;
   border-left: 4px solid #007bff;
+  text-align: center;
+  display: inline-block;
 }
 
 .button-group {
@@ -191,7 +211,8 @@ button:disabled {
   gap: 15px;
   align-items: center;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 20px auto;
+  justify-content: center;
 }
 
 .clear-button {
